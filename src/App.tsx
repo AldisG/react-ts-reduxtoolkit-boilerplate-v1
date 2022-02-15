@@ -19,7 +19,7 @@ const App = () => {
       initial={test.start}
       animate={test.end}
       onClick={() => console.log('!')}
-      className="app"
+      className="App"
     >
       <h1>{app}</h1>
       <p>Working with: {process.env.NODE_ENV} webpack</p>
