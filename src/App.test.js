@@ -5,6 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 import store from './store/redux/store';
 import App from './App';
 import '@testing-library/jest-dom'
+// import '@testing-library/jest-dom/extend-expect';
 
 const AppElement = (
     <BrowserRouter>
